@@ -23,7 +23,7 @@
 
 import Foundation
 
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(xrOS)
     import UIKit
 #if swift(>=4.2)
     typealias LayoutRelation = NSLayoutConstraint.Relation
